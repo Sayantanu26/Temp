@@ -1,0 +1,188 @@
+namespace dglib.LogUC
+{
+    partial class UserLog
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.user_login_pnl = new System.Windows.Forms.Panel();
+            this.sineup_link = new System.Windows.Forms.LinkLabel();
+            this.log_inp = new System.Windows.Forms.Button();
+            this.pass_inp = new System.Windows.Forms.TextBox();
+            this.userid_inp = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.user_login_pnl.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(546, 629);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(8, 25);
+            this.dateTimePicker1.TabIndex = 8;
+            // 
+            // user_login_pnl
+            // 
+            this.user_login_pnl.Controls.Add(this.sineup_link);
+            this.user_login_pnl.Controls.Add(this.log_inp);
+            this.user_login_pnl.Controls.Add(this.pass_inp);
+            this.user_login_pnl.Controls.Add(this.userid_inp);
+            this.user_login_pnl.Controls.Add(this.label3);
+            this.user_login_pnl.Controls.Add(this.label2);
+            this.user_login_pnl.Controls.Add(this.label1);
+            this.user_login_pnl.Controls.Add(this.pictureBox1);
+            this.user_login_pnl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.user_login_pnl.Location = new System.Drawing.Point(0, 0);
+            this.user_login_pnl.Name = "user_login_pnl";
+            this.user_login_pnl.Size = new System.Drawing.Size(1092, 637);
+            this.user_login_pnl.TabIndex = 9;
+            // 
+            // sineup_link
+            // 
+            this.sineup_link.AutoSize = true;
+            this.sineup_link.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.sineup_link.Font = new System.Drawing.Font("Tahoma", 10.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sineup_link.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.sineup_link.Location = new System.Drawing.Point(16, 600);
+            this.sineup_link.Name = "sineup_link";
+            this.sineup_link.Size = new System.Drawing.Size(297, 22);
+            this.sineup_link.TabIndex = 14;
+            this.sineup_link.TabStop = true;
+            this.sineup_link.Text = "Don\'t have an account ? SignUp";
+            // 
+            // log_inp
+            // 
+            this.log_inp.BackColor = System.Drawing.Color.RoyalBlue;
+            this.log_inp.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.log_inp.Font = new System.Drawing.Font("Forte", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.log_inp.ForeColor = System.Drawing.Color.White;
+            this.log_inp.Location = new System.Drawing.Point(294, 407);
+            this.log_inp.Name = "log_inp";
+            this.log_inp.Size = new System.Drawing.Size(169, 56);
+            this.log_inp.TabIndex = 13;
+            this.log_inp.Text = "Login";
+            this.log_inp.UseVisualStyleBackColor = false;
+            // 
+            // pass_inp
+            // 
+            this.pass_inp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pass_inp.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pass_inp.Location = new System.Drawing.Point(226, 318);
+            this.pass_inp.Name = "pass_inp";
+            this.pass_inp.Size = new System.Drawing.Size(378, 32);
+            this.pass_inp.TabIndex = 12;
+            // 
+            // userid_inp
+            // 
+            this.userid_inp.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.userid_inp.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userid_inp.Location = new System.Drawing.Point(226, 209);
+            this.userid_inp.Name = "userid_inp";
+            this.userid_inp.Size = new System.Drawing.Size(378, 32);
+            this.userid_inp.TabIndex = 11;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(52, 318);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(138, 28);
+            this.label3.TabIndex = 10;
+            this.label3.Text = "Password :";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(52, 208);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(115, 28);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "User ID :";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Forte", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(273, 61);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(216, 47);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "User Login";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::dglib.Properties.Resources.Login_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(626, 41);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(458, 534);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            // 
+            // UserLog
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.user_login_pnl);
+            this.Controls.Add(this.dateTimePicker1);
+            this.Font = new System.Drawing.Font("Palatino Linotype", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.Name = "UserLog";
+            this.Size = new System.Drawing.Size(1092, 637);
+            this.user_login_pnl.ResumeLayout(false);
+            this.user_login_pnl.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Panel user_login_pnl;
+        public System.Windows.Forms.Button log_inp;
+        private System.Windows.Forms.TextBox pass_inp;
+        private System.Windows.Forms.TextBox userid_inp;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel sineup_link;
+    }
+}
